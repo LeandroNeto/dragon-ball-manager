@@ -46,5 +46,8 @@
     "cypress": "^4.5.0",
     "jest-environment-jsdom": "^26.0.1",
     "jest-environment-jsdom-sixteen": "^1.0.3"
+  },
+  "jest": {
+    "verbose": true
   }
 }
