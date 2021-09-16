@@ -8,6 +8,6 @@ context('Shenlong Invation Test', () => {
     cy.get('[data-testid="card-shenlong"]').should('exist')
     cy.get('[data-testid="invoke-button"]').click()
     cy.get('[data-testid="modaltext"]').should('contain.text', 'Você não tem todas as esferas para invocar o shenlong')
-    cy.contains('[data-testid="back"]').click()
+    cy.get('[data-testid="back"]').click()
   })
 })
